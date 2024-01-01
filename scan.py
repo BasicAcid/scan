@@ -6,7 +6,7 @@ from datetime import datetime
 DEFAULT_OUTPUT_DIR = os.getenv('SCAN_DIR')
 
 if DEFAULT_OUTPUT_DIR is None:
-    print("Please set the env variable \"DEFAULT_OUTPUT_DIR\" first")
+    print("Please set the env variable \"DEFAULT_OUTPUT_DIR\" first.")
     raise SystemExit()
 
 def initialize_scanner():
